@@ -1,5 +1,3 @@
-[rsschool-cv](https://krooshk.github.io/rsschool-cv/cv)
-
 # Kroosh Kirill #
 
 # Contacts: #
