@@ -26,7 +26,9 @@ body {
     border: 1px solid red;
 }
 
-.main {
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid rgb(43, 255, 0);
 }
 
@@ -37,4 +39,14 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }
