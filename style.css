@@ -1,4 +1,40 @@
-div {
-    color: aqua;
-    background: rgb(189, 119, 14);
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.header {
+    border: 1px solid red;
+}
+
+.main {
+    border: 1px solid rgb(43, 255, 0);
+}
+
+.footer {
+    border: 1px solid rgb(0, 4, 255);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
