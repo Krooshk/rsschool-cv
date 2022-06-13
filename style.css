@@ -1,4 +1,148 @@
-div {
-    color: aqua;
-    background: rgb(189, 119, 14);
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #7178b1d0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.main {
+    min-height: 100px;
+    justify-content: flex-start;
+}
+
+h1,
+h2 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+    background-color: #343a6dd0;
+    margin: -16px;
+}
+
+.main-first-container img {
+    border-radius: 20%;
+}
+
+.main-first-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #141946d0;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+
+.main-second-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #141946d0;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #141946d0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 50%;
+}
+
+.container-name-contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+a,
+.container-footer div {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: none;
+}
+
+a:active {
+    color: #8377b3;
+}
+
+a:hover {
+    color: #a7a4b6;
+}
+
+#projects a {
+    color: #141946d0;
+    font-style: italic;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+#profile p {
+    background-color: #8377b3;
+}
+
+@media (max-width: 1100px) {
+    .section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        min-width: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        min-width: 550px;
+    }
+    .footer {
+        min-width: 550px;
+    }
 }
