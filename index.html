@@ -33,9 +33,9 @@
         </header>
         <main class="main">
             <div class="container main-first-container">
-                <section class="section" id="photo">
+                <div id="photo">
                     <img width="200" src="./assets/photo.jpg" alt="my photo">
-                </section>
+                </div>
                 <div class="container-name-contacts">
                     <section class="section" id="profile">
                         <h1 class="section-title">Kroosh Kirill</h1>
@@ -70,9 +70,9 @@
                 <code>
 function findUniq(arr) {
 let unic;
-	for (let i=0;i &lt arr.length;i++){
+	for (let i=0;i &lt; arr.length;i++){
 		let k=0;
-		for (let j=0;j &lt arr.length;j++){					  
+		for (let j=0;j &lt; arr.length;j++){					  
  			if (arr[i]===arr[j]){
 			unic=arr[j];
 			++k;
